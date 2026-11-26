@@ -20,7 +20,7 @@ npm run build
 npm run preview -- --port 5174
 ```
 
-Também é possível executar `node iniciar.mjs` para servir a versão já compilada de `dist`, sem instalar dependências. Abra http://127.0.0.1:4173. Não abra o index.html diretamente por duplo clique.
+Também é possível executar `node iniciar.mjs` para servir a versão já compilada de `docs`, sem instalar dependências. Abra http://127.0.0.1:4173. Não abra o index.html diretamente por duplo clique.
 
 ## Roteiro de apresentação
 
