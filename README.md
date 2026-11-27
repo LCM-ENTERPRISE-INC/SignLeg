@@ -25,11 +25,11 @@ Também é possível executar `node iniciar.mjs` para servir a versão já compi
 ## Roteiro de apresentação
 
 1. Entre com **Joao123 / 123456** (João Oliveira — Vereador).
-2. Clique em **Experimentar o fluxo**. O título, um PDF real de exemplo e Carlos/Ana já estarão selecionados. Alternativamente, use **Novo documento**, envie seu PDF (até 2 MB) e selecione nominalmente os destinatários.
-3. Clique em **Enviar para assinatura**. Os dois participantes recebem acesso simultâneo.
+2. Clique em **Experimentar o fluxo**. O título, um PDF real de exemplo e João (remetente), Carlos e Ana já estarão selecionados. Alternativamente, use **Novo documento**, envie seu PDF (até 2 MB) e selecione nominalmente os destinatários. Quem envia aparece no topo da lista, já marcado, e também assina; é possível desmarcar.
+3. Clique em **Enviar para assinatura**. Os três participantes recebem acesso simultâneo. Ainda como João, clique em **Simular assinatura** e confirme.
 4. Use **Trocar perfil**, entre com **Carlos123 / 123456**, abra o novo requerimento, clique em **Simular assinatura** e confirme.
 5. Entre como **Ana123 / 123456** e repita. Não há ordem obrigatória entre Carlos e Ana.
-6. Volte a **João Oliveira**. O documento estará **Concluído**, com duas respostas individuais e horários.
+6. Volte a **João Oliveira**. O documento estará **Concluído**, com três respostas individuais e horários.
 7. Recarregue a página: documentos, respostas e perfil continuam salvos.
 8. Em outro documento, use **Recusar documento**: é obrigatório informar o motivo. A recusa mantém o status geral Recusado, sem impedir a manifestação dos outros destinatários.
 9. O perfil **Mariana Lima**, login **Mariana123 / 123456**, permite gerenciar contas e consultar o dashboard geral e os documentos de todos os usuários.
