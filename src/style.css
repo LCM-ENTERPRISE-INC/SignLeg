@@ -221,6 +221,24 @@ label small{color:#98a5b5;font-size:10px}
 .demo-credentials .profiles{margin-bottom:0}
 .admin-documents{margin:22px 0 28px}
 .users-heading{margin:25px 0 16px}
+.confirm-modal{width:min(540px,100%);max-height:calc(100vh - 40px);max-height:calc(100dvh - 40px);overflow-y:auto;overscroll-behavior:contain;padding:24px 28px}
+.confirm-modal h2{margin:14px 0 8px}
+.confirm-modal p{margin-bottom:14px}
+@media(min-width:768px){.confirm-modal .modal-actions{margin-top:18px}}
+.summary{margin:0 0 14px;border:1px solid #e4eaf2;border-radius:8px}
+.summary>div{padding:10px 14px;border-top:1px solid #edf1f6}
+.summary>div:first-child{border-top:0}
+.summary dt{margin-bottom:6px;font-size:11px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:#8494a8}
+.summary dd{margin:0;font-size:13px;line-height:1.5;color:#32455e;overflow-wrap:anywhere}
+.summary-file{display:flex;align-items:flex-start;gap:8px}
+.summary-file svg{flex-shrink:0;margin-top:2px;color:#4f7fbc}
+.summary-file small{color:#8f9eaf}
+.summary-message{white-space:pre-wrap}
+.summary-signers{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.summary-signers li{display:flex;align-items:center;gap:10px}
+.summary-signers li>span:last-child{min-width:0}
+.summary-signers strong{display:block;font-size:13px}
+.summary-signers small{display:block;margin-top:2px;font-size:11px;color:#91a0b2}
 
 @media(hover:hover) and (pointer:fine){
   button:hover:not(:disabled){filter:brightness(.97)}
@@ -456,6 +474,9 @@ label small{color:#98a5b5;font-size:10px}
   .modal h2{font-size:19px;margin:14px 44px 10px 0}
   .modal p{font-size:14px}
   .modal .info+p{margin-top:16px}
+  .summary dd{font-size:14px}
+  .summary-signers strong{font-size:14px}
+  .summary-signers small{font-size:12px}
   .modal-actions{position:sticky;bottom:0;flex-direction:column-reverse;gap:10px;margin:20px -20px 0;padding:14px 20px calc(16px + env(safe-area-inset-bottom));background:white;border-top:1px solid #edf1f6}
   .modal-actions button{width:100%}
 
